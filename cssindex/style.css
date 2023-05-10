@@ -89,9 +89,6 @@ main > section:nth-child(2n){
 /* 
     FOOTER
 */
-footer{
-    background-color: darkslategray;
-}
 footer .footer-top{
     padding: 30px 0;
 }
@@ -109,20 +106,16 @@ footer .footer-bottom .footer-info{
 
 
 /*
-    DEBUG
+DEBUG
 */
-.debug header .header-top{
-    background-color: lightblue;
-}
 .debug header .menu{
     background-color: yellow;
 }
 .debug header .menu > *{
     border: 2px dashed black;
 }
-.debug header .header-bottom{
+.debug header > *{
     background-color: blue;
-    
     
 }
 .debug header .header-bottom .Display-center-header-bottom{
@@ -139,19 +132,22 @@ footer .footer-bottom .footer-info{
     height: 400px;
     border: 2px dashed black;
     background-color: pink;
-
+    
 }
 .debug main section .main-display-center-col{
     height: 600px;
     border: 2px dashed black;
     background-color: green;
-
+    
+}
+.debug footer{
+    background-color: darkslategray;
 }
 .debug footer section .footer-small-column{
     background-color: pink;
     height: 400px;
     border: 2px dashed black;
-
+    
 }
 .debug footer section .footer-big-column{
     background-color: blueviolet;
