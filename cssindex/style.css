@@ -17,6 +17,10 @@ body{
     max-width: 900px;
     margin: 0 auto;
 }
+.container-header-bottom{
+    max-width: 700px;
+    margin: 0 auto;
+}
 .my-row{
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +48,9 @@ header .header-top .menu .main-nav{
 header .header-top .menu .login{
     text-align: right;
 }
+header .header-bottom{
+    padding: 50px 0;
+}
 
 /* 
     MAIN
@@ -67,5 +74,15 @@ header .header-top .menu .login{
     background-color: yellow;
 }
 .debug header .menu > *{
+    border: 2px dashed black;
+}
+.debug header .header-bottom{
+    background-color: blue;
+    
+    
+}
+.debug header .header-bottom .Display-center-header-bottom{
+    background-color: purple;
+    height: 400px;
     border: 2px dashed black;
 }
