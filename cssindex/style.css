@@ -1,0 +1,71 @@
+/*
+    RESET
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column-1-6{
+    width: calc(100% / 6);
+}
+.column-2-3{
+    width: calc((100% / 3) * 2);
+    
+}
+
+/* 
+    HEADER
+*/
+header .header-top{
+    padding: 10px 0;
+}
+header .header-top .menu > *{
+    padding: 10px;
+}
+header .header-top .menu .main-nav{
+    text-align: center;
+}
+header .header-top .menu .login{
+    text-align: right;
+}
+
+/* 
+    MAIN
+*/
+
+
+
+/* 
+    FOOTER
+*/
+
+
+
+/*
+    DEBUG
+*/
+.debug header .header-top{
+    background-color: lightblue;
+}
+.debug header .menu{
+    background-color: yellow;
+}
+.debug header .menu > *{
+    border: 2px dashed black;
+}
