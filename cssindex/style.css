@@ -25,11 +25,22 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+
+/*
+    COLUMNS
+*/
 .column-1-6{
     width: calc(100% / 6);
 }
 .column-2-3{
     width: calc((100% / 3) * 2);
+    
+}
+.column-2-5{
+    width: calc((100% / 5) * 2);
+    
+}.column-3-5{
+    width: calc((100% / 5) * 3);
     
 }
 
@@ -55,7 +66,9 @@ header .header-bottom{
 /* 
     MAIN
 */
-
+main > section{
+    padding: 40px 0;
+}
 
 
 /* 
@@ -85,4 +98,15 @@ header .header-bottom{
     background-color: purple;
     height: 400px;
     border: 2px dashed black;
+}
+.debug main section .large-column{
+    height: 400px;
+    background-color: dodgerblue;
+    border: 2px dashed black;
+}
+.debug main section .small-column{
+    height: 400px;
+    border: 2px dashed black;
+    background-color: pink;
+
 }
